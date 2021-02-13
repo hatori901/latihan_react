@@ -3,8 +3,9 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 7vmin;
   pointer-events: none;
+  align-items: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -26,6 +27,24 @@
 
 .App-link {
   color: #61dafb;
+}
+.App-navbar{
+  padding: 10px;
+
+}
+.App-navbar .nav{
+  display: flex;
+  flex-wrap: 1;
+  list-style-type: none;
+}
+.nav-item{
+  padding: 10px;
+  font-weight:800;
+  
+}
+.nav-link{
+  color: #60a7bb;
+  text-decoration: none;
 }
 
 @keyframes App-logo-spin {
